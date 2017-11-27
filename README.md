@@ -19,4 +19,4 @@ to start from beginning
 2. ionic platform add ios/android 
 3. ionic serve --lab
 
-will be updated this project files time by time as i do start as beginner and more need to be explore.
+will be updated this project files time by time as i do start as beginner and more need to be explore. just try and making experiment.
