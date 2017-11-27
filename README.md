@@ -3,7 +3,7 @@ my first ever demo for show what i do understand using ionic and cordova uses
 
 
 how to run this
-1. download or clone it
+1. download or clone it    git clone https://github.com/quraisahamid/cardio_demo
 2. make sure you have install ionic and Nodejs especially to enabling the CLI command console to be used to view the project
 
 installation of ionic cordova
