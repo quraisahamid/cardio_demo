@@ -7,7 +7,13 @@ how to run this
 2. make sure you have install ionic and Nodejs especially to enabling the CLI command console to be used
 3. to view the project
 
-ionic serve --lab
+installation of ionic cordova
+1.npm install -g ionic cordova
+2. Checking version of ionic
+3. ionic -v
+
+
+ionic serve --lab  //to run the app to browser minimize not to large 
 
 to start from beginning
 1. ionic start {projectname} blank/tabs/menu
