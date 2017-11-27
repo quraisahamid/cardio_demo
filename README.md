@@ -4,8 +4,7 @@ my first ever demo for show what i do understand using ionic and cordova uses
 
 how to run this
 1. download or clone it
-2. make sure you have install ionic and Nodejs especially to enabling the CLI command console to be used
-3. to view the project
+2. make sure you have install ionic and Nodejs especially to enabling the CLI command console to be used to view the project
 
 installation of ionic cordova
 1.npm install -g ionic cordova
