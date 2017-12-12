@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage} from 'ionic-angular';
 
 /**
  * Generated class for the ChallengePage page.
@@ -11,15 +11,33 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 @IonicPage()
 @Component({
   selector: 'page-challenge',
-  templateUrl: 'challenge.html',
+  templateUrl: 'challenge.html', 
 })
 export class ChallengePage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+ topics: string[];
+ 
+  generateTopics() {
+    this.topics = [
+      '2.4KM Run',
+      '500 Calories Run',  
+    ];
+  }
+ 
+  getTopics(ev: any) {
+    this.generateTopics();
+    let serVal = ev.target.value;
+    if (serVal && serVal.trim() != '') {
+      this.topics = this.topics.filter((topic) => {
+        return (topic.toLowerCase().indexOf(serVal.toLowerCase()) > -1);
+      })
+    }
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ChallengePage');
+  constructor() {
+  
   }
+
+
 
 }
